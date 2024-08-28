@@ -24,7 +24,7 @@ This application is made with Python technology.
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Get In Touch](#-get-in-touch)
-- [License](#-license)
+- [License](#%EF%B8%8F-license)
 
 
 
