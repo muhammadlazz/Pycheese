@@ -74,8 +74,8 @@ Thank you for Using my App.
 [![Alt Text](img/Youtube.png)](https://youtu.be/EPOFYOy4xAw)
 
 ## 📱 Get in Touch
-![Static Badge](https://img.shields.io/badge/My%20Instagram-instagram?style=for-the-badge&logo=instagram&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fwww.instagram.com%2Fmuhlazzuardi%2F)
-![Static Badge](https://img.shields.io/badge/My%20Github-github?style=for-the-badge&logo=github&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fgithub.com%2Fmuhammadlazz)
+[![Static Badge](https://img.shields.io/badge/My%20Instagram-instagram?style=for-the-badge&logo=instagram&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fwww.instagram.com%2Fmuhlazzuardi%2F)](https://www.instagram.com/muhlazzuardi/)
+[![Static Badge](https://img.shields.io/badge/My%20Github-github?style=for-the-badge&logo=github&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fgithub.com%2Fmuhammadlazz)](https://github.com/muhammadlazz)
 
 
 
