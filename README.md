@@ -54,6 +54,20 @@ python pycheese.py
 ```
 Thank you for Using my App.
 
+### Ip Track Usage Example
+1. You can find what IP do you want to trace,
+2. Input the IP in the app.
+
+### Log File Usage Example
+1. You must have a log file first,
+2. Then, move your log file to Pycheese directory,
+3. Input the file path -> C:\Users\your-name\Pycheese\Test_logfile.log
+
+### Vulnerable Web Check Usage Example
+1. Find what website do you want to check,
+2. Input the domain in the app.
+
+
 
 ## 📊 Usage
 
