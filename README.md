@@ -10,10 +10,10 @@ This application is made with Python technology.
 
 ![Logo](img/logo.png)
 
-![GitHub followers](https://img.shields.io/github/followers/muhammadlazz?label=Follow)
-![GitHub User's stars](https://img.shields.io/github/stars/muhammadlazz)
-![GitHub Issues](https://img.shields.io/github/issues/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)
-![GitHub License](https://img.shields.io/github/license/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)
+[![GitHub followers](https://img.shields.io/github/followers/muhammadlazz?label=Follow)](https://github.com/muhammadlazz)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/muhammadlazz/Pycheese)](https://github.com/muhammadlazz/Pycheese)]
+[![GitHub Issues](https://img.shields.io/github/issues/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)](https://github.com/muhammadlazz/Pycheese/issues)]
+[![GitHub License](https://img.shields.io/github/license/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)](https://github.com/muhammadlazz/Pycheese?tab=MIT-1-ov-file)]
 
 
 
