@@ -1,75 +1,84 @@
-# Pycheese
 
-> The simple Cyber Security Tools
+# Pycheese - Trace, Scan Tools
 
-[![github release version](https://img.shields.io/github/v/release/nhn/tui.editor.svg?include_prereleases)](https://github.com/nhn/tui.editor/releases/latest) [![npm version](https://img.shields.io/npm/v/@toast-ui/editor.svg)](https://www.npmjs.com/package/@toast-ui/editor) [![license](https://img.shields.io/github/license/nhn/tui.editor.svg)](https://github.com/nhn/tui.editor/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
+> The simple Scan or Trace Tools
 
-<img src="![image](https://github.com/user-attachments/assets/6ea504d5-7e00-4cd2-b2fa-fb8a3dcbf73a)" />
+Pycheese is here to help you more easily track an ip, analyze suspicious patterns in log files, and check whether the domain / website is vulnerable to attacks / not (X-Frame Options).
+
+This application is made with Python technology.
 
 
-## 🚩 Table of Contents
+![Logo](img/logo.png)
+
+[![GitHub followers](https://img.shields.io/github/followers/muhammadlazz?label=Follow)](https://github.com/muhammadlazz)
+[![GitHub Repo stars](https://img.shields.io/github/stars/muhammadlazz/Pycheese)](https://github.com/muhammadlazz/Pycheese)
+[![GitHub Issues](https://img.shields.io/github/issues/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)](https://github.com/muhammadlazz/Pycheese/issues)
+[![GitHub License](https://img.shields.io/github/license/muhammadlazz/Pycheese?style=flat-square&color=%2300A66C)](https://github.com/muhammadlazz/Pycheese?tab=MIT-1-ov-file)
+
+
+
+
+## 📑 Table of Contents
 
 - [Features](#-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pull Request Steps](#-pull-request-steps)
-- [Contributing](#-contributing)
-- [TOAST UI Family](#-toast-ui-family)
-- [Used By](#-used-by)
-- [License](#-license)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Get In Touch](#-get-in-touch)
+- [License](#%EF%B8%8F-license)
 
 
-## 🎨 Features
 
-* [Viewer](https://github.com/nhn/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
-* [Internationalization (i18n)](https://github.com/nhn/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
-* [Widget](https://github.com/nhn/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
-* [Custom Block](https://github.com/nhn/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
+## 💻 Features
 
-### Installation
+1. IP Track : Tracing the IP you input. You can know where the IP located using this feature.
+2. Log File Suspicious Analyzer : Detect suspicious pattern from log file.
+3. Vulnerable Web Check : Checking whether the website we input is vulnerable or not. This feature checks whether the X-Frame options exist on the website we input.
 
+
+## 📂 Installation
+Install using Git Clone
 ```sh
-git clone https://github.com/{your-personal-repo}/tui.editor.git
+git clone https://github.com/muhammadlazz/Pycheese.git
 ```
+Change Directory
 ```sh
-npm install
+cd Pycheese/
 ```
-$ npm run build toastmark
-$ npm run test editor
+After in the Pycheese directory, next change directory to
+```sh
+cd app/
 ```
-
-> TOAST UI Editor uses [npm workspace](https://docs.npmjs.com/cli/v7/using-npm/workspaces/), so you need to set the environment based on [npm7](https://github.blog/2021-02-02-npm-7-is-now-generally-available/). If subversion is used, dependencies must be installed by moving direct paths per package.
-
-### Usage
-
-You can see your code reflected as soon as you save the code by running a server. Don't miss adding test cases and then make green rights.
-
-#### Run snowpack-dev-server
-[snowpack](https://www.snowpack.dev/) allows you to run a development server without bundling.
-
-``` sh
-$ npm run serve editor
+Run the app using Python
+```sh
+python pycheese.py
 ```
+Thank you for Using my App.
 
-#### Run webpack-dev-server
-If testing of legacy browsers is required, the development server can still be run using a [webpack](https://webpack.js.org/).
+### Ip Track Usage Example
+1. You can find what IP do you want to trace,
+2. Input the IP in the app.
 
-``` sh
-$ npm run serve:ie editor
-```
+### Log File Usage Example
+1. You must have a log file first,
+2. Then, move your log file to Pycheese directory,
+3. Input the file path -> C:\Users\your-name\Pycheese\Test_logfile.log
 
-#### Run test
+### Vulnerable Web Check Usage Example
+1. Find what website do you want to check,
+2. Input the domain in the app.
 
-``` sh
-$ npm test editor
-```
 
-### Pull Request
 
-Before uploading your PR, run test one last time to check if there are any errors. If it has no errors, commit and then push it!
+## 📊 Usage
 
-For more information on PR's steps, please see links in the Contributing section.
+[![Alt Text](img/Youtube.png)](https://youtu.be/Ja405twN1HE)
 
-## 📜 License
+## 📱 Get in Touch
+[![Static Badge](https://img.shields.io/badge/My%20Instagram-instagram?style=for-the-badge&logo=instagram&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fwww.instagram.com%2Fmuhlazzuardi%2F)](https://www.instagram.com/muhlazzuardi/)
+[![Static Badge](https://img.shields.io/badge/My%20Github-github?style=for-the-badge&logo=github&labelColor=%231F1F1F&color=%231F1F1F&link=https%3A%2F%2Fgithub.com%2Fmuhammadlazz)](https://github.com/muhammadlazz)
 
-This software is licensed under the [MIT](https://github.com/muhammadlazz/pycheese/blob/main/LICENSE) © [lazzu]([https://github.com/nhn](https://github.com/muhammadlazz)).
+
+
+## ⚖️ License
+
+This software is licensed under the [MIT](https://github.com/muhammadlazz/Pycheese/blob/main/LICENSE) © [lazzu](https://github.com/muhammadlazz).
