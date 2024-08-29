@@ -81,4 +81,4 @@ Thank you for Using my App.
 
 ## ⚖️ License
 
-This software is licensed under the [MIT](https://github.com/muhammadlazz/Pycheese/blob/main/LICENSE) © [lazzu](https://github.com/muhammadlazz)).
+This software is licensed under the [MIT](https://github.com/muhammadlazz/Pycheese/blob/main/LICENSE) © [lazzu](https://github.com/muhammadlazz).
